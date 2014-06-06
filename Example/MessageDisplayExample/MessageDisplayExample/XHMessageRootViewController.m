@@ -15,7 +15,11 @@
 
 #import "XHNewsTableViewController.h"
 
-@interface XHMessageRootViewController ()
+#import "XHChatPopMenuView.h"
+
+@interface XHMessageRootViewController ()<XHChatPopMenuDelegate>
+
+@property (nonatomic, retain) XHChatPopMenuView *popMenu;
 
 @end
 
@@ -33,6 +37,17 @@
     [self pushNewViewController:newsTableViewController];
 }
 
+- (void)popMenu:(id)sender{
+    if (_popMenu == nil) {
+        _popMenu = [[XHChatPopMenuView alloc] initWithFrame:self.view.bounds];
+        [_popMenu popInView:self.view];
+        
+    }else{
+        [_popMenu dismiss];
+        _popMenu = nil;
+    }
+}
+
 #pragma mark - Life Cycle
 
 - (void)viewDidLoad {
@@ -43,6 +58,10 @@
     self.dataSource = dataSource;
     
     [self.view addSubview:self.tableView];
+    
+    UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(popMenu:)];
+    self.navigationItem.rightBarButtonItem = rightItem;
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -97,6 +116,24 @@
     } else {
         [self enterMessage];
     }
+}
+
+#pragma mark ---
+
+- (void)groupChat{
+
+}
+- (void)addFriends{
+
+}
+- (void)scanQRCode{
+
+}
+- (void)takePhotosShare{
+
+}
+- (void)voipChat{
+
 }
 
 @end

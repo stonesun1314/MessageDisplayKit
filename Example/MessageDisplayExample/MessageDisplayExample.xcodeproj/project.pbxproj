@@ -582,6 +582,14 @@
 		ABF9EC1A19324D64003B95DC /* ScanWord_HL@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF9EC0E19324D64003B95DC /* ScanWord_HL@2x.png */; };
 		E1664DC01934789A003F4C5B /* XHAudioPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1664DBF1934789A003F4C5B /* XHAudioPlayerHelper.m */; };
 		E1664DC319347916003F4C5B /* XHVoiceCommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E1664DC219347916003F4C5B /* XHVoiceCommonHelper.m */; };
+		E3CF631D1941FE0400C6DF08 /* XHChatPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CF631C1941FE0400C6DF08 /* XHChatPopMenuView.m */; };
+		E3CF63201941FE5500C6DF08 /* XHChatPopMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3CF631F1941FE5500C6DF08 /* XHChatPopMenuCell.m */; };
+		E3CF632719420E8F00C6DF08 /* contacts_add_friend@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF632219420E8F00C6DF08 /* contacts_add_friend@2x.png */; };
+		E3CF632819420E8F00C6DF08 /* contacts_add_newmessage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF632319420E8F00C6DF08 /* contacts_add_newmessage@2x.png */; };
+		E3CF632919420E8F00C6DF08 /* contacts_add_photo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF632419420E8F00C6DF08 /* contacts_add_photo@2x.png */; };
+		E3CF632A19420E8F00C6DF08 /* contacts_add_scan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF632519420E8F00C6DF08 /* contacts_add_scan@2x.png */; };
+		E3CF632B19420E8F00C6DF08 /* contacts_add_voip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF632619420E8F00C6DF08 /* contacts_add_voip@2x.png */; };
+		E3CF6331194229C200C6DF08 /* MoreFunctionFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3CF6330194229C200C6DF08 /* MoreFunctionFrame@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1080,6 +1088,16 @@
 		E1664DBF1934789A003F4C5B /* XHAudioPlayerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHAudioPlayerHelper.m; sourceTree = "<group>"; };
 		E1664DC119347916003F4C5B /* XHVoiceCommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHVoiceCommonHelper.h; sourceTree = "<group>"; };
 		E1664DC219347916003F4C5B /* XHVoiceCommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHVoiceCommonHelper.m; sourceTree = "<group>"; };
+		E3CF631B1941FE0400C6DF08 /* XHChatPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHChatPopMenuView.h; sourceTree = "<group>"; };
+		E3CF631C1941FE0400C6DF08 /* XHChatPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHChatPopMenuView.m; sourceTree = "<group>"; };
+		E3CF631E1941FE5500C6DF08 /* XHChatPopMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHChatPopMenuCell.h; sourceTree = "<group>"; };
+		E3CF631F1941FE5500C6DF08 /* XHChatPopMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHChatPopMenuCell.m; sourceTree = "<group>"; };
+		E3CF632219420E8F00C6DF08 /* contacts_add_friend@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_friend@2x.png"; sourceTree = "<group>"; };
+		E3CF632319420E8F00C6DF08 /* contacts_add_newmessage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_newmessage@2x.png"; sourceTree = "<group>"; };
+		E3CF632419420E8F00C6DF08 /* contacts_add_photo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_photo@2x.png"; sourceTree = "<group>"; };
+		E3CF632519420E8F00C6DF08 /* contacts_add_scan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_scan@2x.png"; sourceTree = "<group>"; };
+		E3CF632619420E8F00C6DF08 /* contacts_add_voip@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "contacts_add_voip@2x.png"; sourceTree = "<group>"; };
+		E3CF6330194229C200C6DF08 /* MoreFunctionFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MoreFunctionFrame@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1321,6 +1339,7 @@
 		746C89131917F691007F9A5E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E3CF631A1941FDE200C6DF08 /* ChatPopMenuView */,
 				AB79A21A192C22B500A9B951 /* BaseCollectionViewCell */,
 				7D06CA6E192B3D8A00DF8C04 /* BaseTableViewCell */,
 				746C89141917F691007F9A5E /* MessageContentViews */,
@@ -1385,6 +1404,7 @@
 		746C89531917F7B4007F9A5E /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E3CF632C1942150F00C6DF08 /* XHChatPopMenuViewController */,
 				746C89731917F89A007F9A5E /* XHBaseTabBarController */,
 				746C89721917F89A007F9A5E /* XHBaseNavigationController */,
 				74901A42191D4CD30049AFF9 /* XHBaseViewController */,
@@ -1857,6 +1877,7 @@
 		74FAB0BA190A92CC005623D0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E3CF632119420E7500C6DF08 /* ChatPopMenuImages */,
 				74E5E99E1921F7580084BCFA /* VoiceRecordHUDImages */,
 				746C87FC1916B57D007F9A5E /* InputViewImages */,
 				746C87F41916B511007F9A5E /* BubbleImages */,
@@ -2300,6 +2321,37 @@
 			path = ScanningImages;
 			sourceTree = "<group>";
 		};
+		E3CF631A1941FDE200C6DF08 /* ChatPopMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				E3CF631B1941FE0400C6DF08 /* XHChatPopMenuView.h */,
+				E3CF631C1941FE0400C6DF08 /* XHChatPopMenuView.m */,
+				E3CF631E1941FE5500C6DF08 /* XHChatPopMenuCell.h */,
+				E3CF631F1941FE5500C6DF08 /* XHChatPopMenuCell.m */,
+			);
+			path = ChatPopMenuView;
+			sourceTree = "<group>";
+		};
+		E3CF632119420E7500C6DF08 /* ChatPopMenuImages */ = {
+			isa = PBXGroup;
+			children = (
+				E3CF6330194229C200C6DF08 /* MoreFunctionFrame@2x.png */,
+				E3CF632219420E8F00C6DF08 /* contacts_add_friend@2x.png */,
+				E3CF632319420E8F00C6DF08 /* contacts_add_newmessage@2x.png */,
+				E3CF632419420E8F00C6DF08 /* contacts_add_photo@2x.png */,
+				E3CF632519420E8F00C6DF08 /* contacts_add_scan@2x.png */,
+				E3CF632619420E8F00C6DF08 /* contacts_add_voip@2x.png */,
+			);
+			name = ChatPopMenuImages;
+			sourceTree = "<group>";
+		};
+		E3CF632C1942150F00C6DF08 /* XHChatPopMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XHChatPopMenuViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -2570,6 +2622,7 @@
 				74E9006C1927940000D37C81 /* tabbarBkg@2x.png in Resources */,
 				746C88431916B607007F9A5E /* ReceiverVoiceNodePlaying000@2x.png in Resources */,
 				74E9009F1927A9C900D37C81 /* bottleBkg@2x.png in Resources */,
+				E3CF632819420E8F00C6DF08 /* contacts_add_newmessage@2x.png in Resources */,
 				746C885C1916B612007F9A5E /* sharemore_videovoip@2x.png in Resources */,
 				ABCB35BC19342DFA002F9938 /* VoiceSearchFeedback009_ios7@2x.png in Resources */,
 				ABCB35B319342DFA002F9938 /* VoiceSearchFeedback005@2x.png in Resources */,
@@ -2633,6 +2686,7 @@
 				746C88211916B5D6007F9A5E /* multiMedia@2x.png in Resources */,
 				746C88221916B5D6007F9A5E /* voice_HL@2x.png in Resources */,
 				746C882E1916B5EE007F9A5E /* input-field-cover.png in Resources */,
+				E3CF632B19420E8F00C6DF08 /* contacts_add_voip@2x.png in Resources */,
 				ABCB35CD19342DFA002F9938 /* VoiceSearchFeedback018@2x.png in Resources */,
 				ABCB35ED19342DFA002F9938 /* VoiceSearchStartBtn@2x.png in Resources */,
 				746C88341916B5FE007F9A5E /* weChatBubble_Receiving_Cavern@2x.png in Resources */,
@@ -2644,6 +2698,7 @@
 				ABCB35C519342DFA002F9938 /* VoiceSearchFeedback014@2x.png in Resources */,
 				AB569AB5193179CC0007DB0B /* Shake_Logo_Down@2x.png in Resources */,
 				746C88751916B62D007F9A5E /* section0_emotion4@2x.png in Resources */,
+				E3CF632919420E8F00C6DF08 /* contacts_add_photo@2x.png in Resources */,
 				746C88561916B612007F9A5E /* sharemore_friendcard@2x.png in Resources */,
 				74E5E9B01921F7710084BCFA /* RecordingSignal008@2x.png in Resources */,
 				ABF9EC1019324D64003B95DC /* ScanBook_HL@2x.png in Resources */,
@@ -2655,7 +2710,9 @@
 				ABF9EC1119324D64003B95DC /* ScanQR1@2x.png in Resources */,
 				746C88481916B607007F9A5E /* SenderVoiceNodePlaying000@2x.png in Resources */,
 				ABCB35D219342DFA002F9938 /* VoiceSearchFeedback020_ios7@2x.png in Resources */,
+				E3CF6331194229C200C6DF08 /* MoreFunctionFrame@2x.png in Resources */,
 				ABCB35B119342DFA002F9938 /* VoiceSearchFeedback004@2x.png in Resources */,
+				E3CF632A19420E8F00C6DF08 /* contacts_add_scan@2x.png in Resources */,
 				746C881C1916B5D6007F9A5E /* face@2x.png in Resources */,
 				ABE87CD5192D6D7F00EC1E49 /* AlbumOperateMoreHL@2x.png in Resources */,
 				746C887B1916B62D007F9A5E /* section0_emotion10@2x.png in Resources */,
@@ -2758,6 +2815,7 @@
 				AB726395193296EE00AA738F /* album_add_photo@2x.png in Resources */,
 				74E5E9B11921F7710084BCFA /* RecordingBkg@2x.png in Resources */,
 				ABCB35D119342DFA002F9938 /* VoiceSearchFeedback020@2x.png in Resources */,
+				E3CF632719420E8F00C6DF08 /* contacts_add_friend@2x.png in Resources */,
 				AB4F12F61932AC1300693BD5 /* AlbumFlagMark@2x.png in Resources */,
 				ABCB35D319342DFA002F9938 /* VoiceSearchIcon@2x.png in Resources */,
 				74E900641927940000D37C81 /* ff_IconShake@2x.png in Resources */,
@@ -2997,6 +3055,7 @@
 				74E5EACB1924FFBE0084BCFA /* SECompatibility.m in Sources */,
 				74C3E7D7192919930053F4E1 /* XHAlbumRichTextView.m in Sources */,
 				740660BF1914D65600E1CE95 /* XHEmotion.m in Sources */,
+				E3CF631D1941FE0400C6DF08 /* XHChatPopMenuView.m in Sources */,
 				746C89791917F8B2007F9A5E /* XHBaseNavigationController.m in Sources */,
 				74E5EAD71924FFBE0084BCFA /* SESelectionGrabber.m in Sources */,
 				E1664DC319347916003F4C5B /* XHVoiceCommonHelper.m in Sources */,
@@ -3019,6 +3078,7 @@
 				AB79A214192C0A6400A9B951 /* XHWaterDropRefresh.m in Sources */,
 				AB63BF181936B35500B6C977 /* XHNewsTemplateTableViewCell.m in Sources */,
 				74E5EAD11924FFBE0084BCFA /* SELineLayout.m in Sources */,
+				E3CF63201941FE5500C6DF08 /* XHChatPopMenuCell.m in Sources */,
 				7D13FC59192C4F4000A23413 /* XHImageViewer.m in Sources */,
 				746C89511917F691007F9A5E /* XHShareMenuView.m in Sources */,
 				746C89331917F691007F9A5E /* XHMessageBubbleView.m in Sources */,

@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>D1224CCE-5538-4C86-A2A6-730C074FB202</string>
+	<string>74114971-FE89-463E-80BB-CAB6D323366B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MessageDisplayKitWorkSpace</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8D76E15D-8215-4652-9E44-A2D809A03466</key>
-		<string>https://github.com/xhzengAIB/MessageDisplayKit.git</string>
+		<key>E19291F2-0823-4E92-B6A7-7176645CCAE5</key>
+		<string>https://github.com/stonesun1314/MessageDisplayKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Example/MessageDisplayKitWorkSpace.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8D76E15D-8215-4652-9E44-A2D809A03466</key>
+		<key>E19291F2-0823-4E92-B6A7-7176645CCAE5</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/xhzengAIB/MessageDisplayKit.git</string>
+	<string>https://github.com/stonesun1314/MessageDisplayKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8D76E15D-8215-4652-9E44-A2D809A03466</string>
+	<string>E19291F2-0823-4E92-B6A7-7176645CCAE5</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8D76E15D-8215-4652-9E44-A2D809A03466</string>
+			<string>E19291F2-0823-4E92-B6A7-7176645CCAE5</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MessageDisplayKit</string>
 		</dict>
